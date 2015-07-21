@@ -4,6 +4,7 @@ var rimraf = require('rimraf');
 var sequence = require('run-sequence');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
+var ghPages = require('gulp-gh-pages');
 
 // UI JavaScript
 var uiJS = ['bower_components/chico/dist/ui/chico.js'];
@@ -123,6 +124,12 @@ gulp.task('browser-sync', ['build'], function () {
     gulp.watch('src/views/*.html', ['copy:views']);
     gulp.watch('build/*.html').on('change', reload);
     gulp.watch('src/styles/*.scss', ['sass']);
+});
+
+// Publish to gh-pages
+gulp.task('deploy', function() {
+    return gulp.src('./build/**/*')
+        .pipe(ghPages());
 });
 
 // Builds all files without starting a server
