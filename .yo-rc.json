@@ -1,0 +1,8 @@
+{
+  "generator-chico-theme": {
+    "bower": {
+      "directory": "bower_components"
+    },
+    "subthemes": {}
+  }
+}

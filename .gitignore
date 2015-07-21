@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+thumb.db
+
+.sass-cache
+bower_components/
+node_modules/
+build/
