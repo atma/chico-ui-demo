@@ -67,11 +67,8 @@ hr {
 a img {
   border: none; }
 
-p {
+p + p {
   margin: 0 0 1em; }
-
-p:last-child {
-  margin-bottom: 0; }
 
 /**
  * Icons
@@ -1991,19 +1988,19 @@ dl.ch-list {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  margin: 0 0 14px; }
+  margin: 0 0 .4em; }
 
 h1 {
-  font-size: 28px; }
-
-h2 {
-  font-size: 26px; }
-
-h3 {
   font-size: 22px; }
 
+h2 {
+  font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
+
 h4 {
-  font-size: 17px; }
+  font-size: 16px; }
 
 h5 {
   font-size: 15px; }
@@ -2235,8 +2232,10 @@ a:hover, a:focus {
   display: none; }
 
 h1, h2, h3 {
-  line-height: 1.15; }
+  line-height: 1.2; }
 
-h4, h5, h6 {
-  line-height: 1.25;
-  font-weight: bold; }
+p {
+  margin: 0 0 1em; }
+
+p:last-child {
+  margin-bottom: 0; }

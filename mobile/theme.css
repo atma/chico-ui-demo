@@ -50,7 +50,7 @@ html {
 body {
   font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
   font-size: 14px;
-  line-height: 1.45;
+  line-height: 1.4;
   padding: 0 10px;
   /* Prevent layout "sticking" to the edge of the browser */
   background-color: #fff;
@@ -67,11 +67,8 @@ hr {
 a img {
   border: none; }
 
-p {
+p + p {
   margin: 0 0 1em; }
-
-p:last-child {
-  margin-bottom: 0; }
 
 img {
   max-width: 100%; }
@@ -421,16 +418,16 @@ img {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  margin: 0 0 14px; }
+  margin: 0 0 .4em; }
 
 h1 {
-  font-size: 26px; }
-
-h2 {
   font-size: 22px; }
 
-h3 {
+h2 {
   font-size: 20px; }
+
+h3 {
+  font-size: 18px; }
 
 h4 {
   font-size: 16px; }
@@ -1923,8 +1920,10 @@ dl.ch-list {
     text-indent: 10px; }
 
 h1, h2, h3 {
-  line-height: 1.15; }
+  line-height: 1.2; }
 
-h4, h5, h6 {
-  line-height: 1.25;
-  font-weight: bold; }
+p {
+  margin: 0 0 1em; }
+
+p:last-child {
+  margin-bottom: 0; }
