@@ -431,13 +431,13 @@
 // > Reset
 // ----------------------------------------------------------------
 // $theme-body-font-size: 14px;
-$theme-body-line-height: 1.45;
+$theme-body-line-height: 1.4;
 // $theme-body-font-family: "Roboto", "Helvetica Neue", Helvetica, "Arial", sans-serif;
 // $theme-body-padding: 0 10px;
 // $theme-body-bg-color: #fff;
 // $theme-text-color: #333;
 // $theme-horizontal-line: 1px dashed #ccc;
-// $theme-paragraph-spacing: 1em 0 0 0;
+$theme-paragraph-spacing: 0 0 1em;
 
 
 // > Tooltip
@@ -457,15 +457,15 @@ $theme-body-line-height: 1.45;
 
 // > Typography
 // ----------------------------------------------------------------
-$headings-margin: 0 0 14px;
+$headings-margin: 0 0 .4em;
 // $headings-text-weight: normal;
 // $headings-boxes-margin-top: 0;
-$heading-h1: 26px;
-$heading-h2: 22px;
-$heading-h3: 20px;
-$heading-h4: 16px;
-$heading-h5: 15px;
-$heading-h6: 14px;
+// $heading-h1: 26px;
+// $heading-h2: 22px;
+// $heading-h3: 20px;
+// $heading-h4: 16px;
+// $heading-h5: 15px;
+// $heading-h6: 14px;
 // $links-visited-text-decoration: underline;
 // $links-visited-color: #809;
 // $price-color: #900;
